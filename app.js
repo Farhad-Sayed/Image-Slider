@@ -87,7 +87,7 @@ const createSlider = () => {
     slideIndex++;
     changeSlide(slideIndex);
   }, duration);
-  
+  document.getElementById('duration').value = '';
 };
 
 // change slider index 
